@@ -1,0 +1,39 @@
+/* ProductCard.css */
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    /* Set a specific width for the product cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 160px;
+    /* Reduce the maximum width of the image */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    /* Adjust the font size for product titles */
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    font-size: 14px;
+    /* Adjust the font size for product price */
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    padding: 8px 12px;
+    /* Adjust button padding */
+    font-size: 14px;
+}

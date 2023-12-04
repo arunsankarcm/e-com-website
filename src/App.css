@@ -1,0 +1,54 @@
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr 3.5fr 1fr;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:nth-child(1) {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background: linear-gradient(rgba(3, 6, 15, 0.5), transparent);
+  background-color: rgb(78, 82, 148);
+  color: white;
+  height: calc(100vh / 6);
+  padding: 20px;
+  font-size: 40px;
+}
+
+.head {
+  font-size: 50px;
+}
+
+.row:nth-child(3) {
+  background: linear-gradient(rgba(3, 6, 15, 0.5), transparent);
+  background-color: rgb(78, 82, 148)
+}
+
+.three-words {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.three-words div {
+  margin-left: 30px;
+}
+
+.row:nth-child(1) .three-words {
+  justify-content: flex-end;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
